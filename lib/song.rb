@@ -29,7 +29,9 @@ def initialize(name, artist, genre)
   def self.genre_count
     
     g ={}
-    @@genres.each do
+    @@genres.each do |geners,songs|
+      
+    end 
   end 
 
  
