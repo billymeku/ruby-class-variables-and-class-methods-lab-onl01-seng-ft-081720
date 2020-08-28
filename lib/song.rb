@@ -30,6 +30,7 @@ def initialize(name, artist, genre)
     
     g ={}
     @@genres.each do |geners,songs|
+      @@geners
       
     end 
   end 
