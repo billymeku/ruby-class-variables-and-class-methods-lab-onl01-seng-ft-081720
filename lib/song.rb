@@ -23,7 +23,8 @@
 # end
 
 
- @@count=0
+class Song
+  @@count=0
   @@artists=Array.new
   @@genres=Array.new
 
