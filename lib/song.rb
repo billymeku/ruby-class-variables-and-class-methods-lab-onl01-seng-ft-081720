@@ -5,12 +5,12 @@ attr_accessor :name, :artist, :genre
 @@genre=Array.new 
 
 def initialize(name,artist,genre)
-   @@count += 1
-     @name = name 
-     @artist= artist
-     @genre = genre
-     @@artist.push(artist)
-     @@genre << genre
+  # @@count += 1
+  #   @name = name 
+  #   @artist= artist
+  #   @genre = genre
+  #   @@artist.push(artist)
+  #   @@genre << genre
 end 
 
 end
