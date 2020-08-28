@@ -11,6 +11,13 @@ def initialize(name,artist,genre)
   #   @genre = genre
   #   @@artist.push(artist)
   #   @@genre << genre
+  
+  @name=name
+    @artist=artist
+    @genre=genre
+    @@count+=1
+    @@artists.push(artist)
+    @@genres.push(genre)
 end 
 
 end
