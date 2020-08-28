@@ -25,6 +25,8 @@ def initialize(name, artist, genre)
   def self.genres
     @@genres.uniq
   end
+  
+  def self.
 
  
 end 
