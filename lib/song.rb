@@ -28,6 +28,8 @@ def initialize(name, artist, genre)
   
   def self.genre_count
     
+    g ={}
+    
   end 
 
  
