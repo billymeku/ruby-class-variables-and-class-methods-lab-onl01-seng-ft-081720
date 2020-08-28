@@ -19,7 +19,7 @@ def initialize(name, artist, genre)
   end
   
   def self.artist
-    @@artist
+    @@artist.uniq
   end 
   
   def self.genre
